@@ -1,0 +1,13 @@
+Benchmark                                     (cacheType)   Mode  Cnt          Score          Error  Units
+GetPutBenchmark.readwrite                    HuTimedCache  thrpt   25   13978472.679 ±   783891.196  ops/s
+GetPutBenchmark.readwrite:readwriteGet       HuTimedCache  thrpt   25    6352174.164 ±   558984.911  ops/s
+GetPutBenchmark.readwrite:readwritePut       HuTimedCache  thrpt   25    7626298.514 ±   848944.720  ops/s
+GetPutBenchmark.readwrite                        Caffeine  thrpt   25  123625568.679 ± 12025984.163  ops/s
+GetPutBenchmark.readwrite:readwriteGet           Caffeine  thrpt   25  104913007.478 ± 11163016.083  ops/s
+GetPutBenchmark.readwrite:readwritePut           Caffeine  thrpt   25   18712561.201 ±  1211006.813  ops/s
+GetPutBenchmark.readwrite               ConcurrentHashMap  thrpt   25  413387353.817 ± 23915390.367  ops/s
+GetPutBenchmark.readwrite:readwriteGet  ConcurrentHashMap  thrpt   25  385076523.987 ± 23931578.108  ops/s
+GetPutBenchmark.readwrite:readwritePut  ConcurrentHashMap  thrpt   25   28310829.830 ±   180231.828  ops/s
+GetPutBenchmark.readwrite                           Guava  thrpt   25   18416203.886 ±   610288.917  ops/s
+GetPutBenchmark.readwrite:readwriteGet              Guava  thrpt   25   18023575.175 ±   592913.872  ops/s
+GetPutBenchmark.readwrite:readwritePut              Guava  thrpt   25     392628.710 ±    19478.107  ops/s
